@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "SiAbsen",
-    "slug": "SiAbsen",
+    "slug": "siabsen",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -10,6 +10,8 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.siabsen.app",
+      "versionCode": 1,
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -19,7 +21,12 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "name": "SiAbsen — Smart Employee Attendance System"
+    },
+    "description": "SiAbsen — Smart Employee Attendance System. Hadir Tepat, Kerja Hebat.",
+    "primaryColor": "#3B9DF8",
+    "backgroundColor": "#F2F7FC"
   }
 }
